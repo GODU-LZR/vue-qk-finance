@@ -2,6 +2,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../views/Home.vue' // 示例
+import ImageDemo from '../views/ImageDemo.vue'
 
 Vue.use(Router)
 
@@ -10,6 +11,11 @@ const routes = [
     path: '/',
     name: 'FinanceHome',
     component: Home
+  },
+  {
+    path: '/image-service',
+    name: 'ImageService',
+    component: ImageDemo
   }
 ]
 
